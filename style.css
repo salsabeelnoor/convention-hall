@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+/* caraousel  */
+/* .carousel-item{
+    position: relative;
+} */
+.carousel-caption{
+    font-family: 'Poppins';
+}
+.carousel-caption h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.carousel-caption p{
+    font-weight: 300;
+    font-size: 1vw;
+}
+.slider-btn .book{
+    padding: 10px 43.5px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #3F87F5;
+    font-weight: 700;
+    font-size: 16px;
+    border: 0;
+}
+/* div#myRedDIV   {order: 2;} */
+
+#album-txt-sm{
+    display: none;
+}
+#album-txt-lg{
+    display: block;
+}
+.album-txt{
+    position: relative;
+}
+#mytoast{
+    position: absolute;
+    top: 20px;
+    width: auto;
+    /* bottom: 50px; */
+    right: 0;
+    z-index: 10;
+    border-left: 10px solid #3F87F5;
+}
+@media screen and (max-width: 576px){
+    
+    .carousel-inner img {
+        height: 80vh;
+        object-fit: cover;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    .carousel-caption h1{
+        font-size: 24px;
+    }
+    #album-txt-sm{
+        display: block;
+    }
+    #album-txt-lg{
+        display: none;
+    }
+    #album-btn{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    
+    #album-btn-small{
+        
+    }
+    /* #album-img{
+        order: 2;
+    }
+    #album-txt{
+        order: 1;
+    }
+    #album-btn{
+        order: 5;
+    } */
+}
